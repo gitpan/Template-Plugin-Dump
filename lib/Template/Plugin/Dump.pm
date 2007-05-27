@@ -6,7 +6,7 @@ use Template::Plugin;
 use base qw( Template::Plugin );
 use vars qw( $VERSION );
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub dump {
   my $self = shift;
@@ -62,7 +62,7 @@ Kenichi Ishigaki, E<lt>ishigaki at cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2007 by Kenichi Ishigaki, all rights reserved.
+Copyright (C) 2007 by Kenichi Ishigaki
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

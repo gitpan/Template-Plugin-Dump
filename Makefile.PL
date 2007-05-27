@@ -9,6 +9,9 @@ WriteMakefile(
           ABSTRACT_FROM  => 'lib/Template/Plugin/Dump.pm',
         ) : ()
     ),
+    ( $ExtUtils::MakeMaker::VERSION >= 6.31 ?
+      ( LICENSE => 'perl' ) : ()
+    ),
     PREREQ_PM => {
         'Test::UseAllModules' => 0,
         'Data::Dump' => 0,
